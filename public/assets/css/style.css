@@ -1,0 +1,58 @@
+html, body {
+    min-height: 100%;
+    background-color: steelblue;
+}
+
+body {
+    padding: 70px;
+}
+
+.container-fluid {
+    background-color: whitesmoke;
+    font-size: 250%;
+}
+
+.jumbotron {
+    margin-top: 5%
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+    4px 4px 0px #d5d5d5, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);  
+}   
+
+.active {
+    color: brown;   
+    background-color: blue;
+}
+
+.btn-success {
+    background-color: blue;
+}
+
+.btn-warning {
+    background-color: green;
+}
+
+.navbar-btn {
+    font-size: 70%;
+    float: right;
+    margin-right: 15%;
+}
+
+.btn-danger {
+    background-color: green;
+}
+
+h1 {
+    color: #fff;
+    font-size: 12em;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    }
+    
