@@ -17,8 +17,8 @@ router.get('/', function(req, res) {
             } else {
                 console.log(articles);
                 let hbsObj = {
-                    title: 'All The News You Need To Know!',
-                    subtitle: 'Mongo Scraper Edition.',
+                    title: 'All The News That You Need!',
+                    subtitle: 'The MongoDB Edition.',
                     articles: articles
                 };
                 res.render('index', hbsObj);
@@ -41,8 +41,8 @@ router.get('/saved', function(req, res) {
             } else {
                 console.log(articles);
                 let hbsObj = {
-                    title: 'All the News That\'s Fit to Scrape',
-                    subtitle: 'The Y Combinator Edition',
+                    title: 'All The News That You Need!',
+                    subtitle: 'The MongoDB Edition.',
                     articles: articles
                 };
                 res.render('saved', hbsObj);

@@ -27,7 +27,7 @@ coverage
 build/Release
 
 # Dependency directories
-
+node_modules
 jspm_packages
 
 # Optional npm cache directory
@@ -41,4 +41,3 @@ jspm_packages
 
 # vs code workspace settings
 .vscode
-node_modules

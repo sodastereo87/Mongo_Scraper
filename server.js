@@ -1,6 +1,7 @@
 const express = require('express'),
       exphbs = require('express-handlebars'),
       bodyParser = require('body-parser'),
+      logger = require('morgan'),
       mongoose = require('mongoose'),
       methodOverride = require('method-override');
 
@@ -14,13 +15,13 @@ app
     .use(bodyParser.text())
     .use(bodyParser.json({ type: 'application/vnd.api+json' }))
     .use(methodOverride('_method'))
+    .use(logger('dev'))
     .use(express.static(__dirname + '/public'))
     .engine('handlebars', exphbs({ defaultLayout: 'main' }))
     .set('view engine', 'handlebars')
     .use(require('./controllers'));
 
 // configure mongoose and start the server
-
 // set mongoose to leverage promises
 mongoose.Promise = Promise;
 
